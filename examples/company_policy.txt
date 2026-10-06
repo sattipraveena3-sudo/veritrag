@@ -1,0 +1,5 @@
+Acme Cloud offers three support plans. Starter support provides email support during business hours. Business support provides 24/7 email and chat support with a four-hour target response time for priority-one incidents. Enterprise support provides 24/7 phone, chat, and email support with a one-hour target response time for priority-one incidents.
+
+Customer data is retained for 30 days after account closure unless a longer period is required by law or an active legal hold. Customers can request export of account data before closure.
+
+Production API rate limits are 600 requests per minute for Business accounts and 2,000 requests per minute for Enterprise accounts. Starter accounts are limited to 120 requests per minute.

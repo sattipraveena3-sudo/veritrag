@@ -1,0 +1,14 @@
+services:
+  veritrag:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      VERITRAG_DB_PATH: /data/veritrag.db
+      VERITRAG_EMBEDDING_BACKEND: hashing
+    volumes:
+      - veritrag-data:/data
+    restart: unless-stopped
+
+volumes:
+  veritrag-data:
